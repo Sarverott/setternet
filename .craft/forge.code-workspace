@@ -1,0 +1,67 @@
+{
+	"title":"~~~ 𝐒𝐞𝐭𝐭𝐞𝐫𝐧𝐞𝐭 ~~~",
+	"folders": [
+		{
+			"name": "$>FORGE::[ 𝐒𝐞𝐭𝐭𝐞𝐫𝐧𝐞𝐭 ]",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"explorer.decorations.badges": true,
+		"window.title": "${remoteName}!bos.${rootNameShort}> repo('${activeRepositoryName}') < F='${activeEditorShort}' in P='./${activeFolderMedium}' on B='${activeRepositoryBranchName}' at ${activeEditorState}",
+		//"window.title":"by ${remoteName} using B.O.S. with ${appName} at ${rootNameShort} open ${activeRepository} ${activeRepositoryBranchName} pathed ${activeFolderLong} (${activeEditorState} - ${focusedView})",
+		"workbench.colorTheme": "Default Dark Modern",
+		"editor.cursorSmoothCaretAnimation": "on",
+		"zenMode.hideLineNumbers": false,
+		"zenMode.hideActivityBar": false,
+		"workbench.editor.alwaysShowEditorActions": true,
+		"workbench.colorCustomizations": {
+
+		},
+		//"workbench.preferredDarkColorTheme": "Default High Contrast",
+		//"workbench.preferredHighContrastLightColorTheme": "Default High Contrast",
+		//"workbench.preferredLightColorTheme": "Default High Contrast",
+		"workbench.iconTheme": "vs-minimal",
+		"workbench.editor.decorations.colors": true,
+		"workbench.view.alwaysShowHeaderActions": true,
+		"workbench.view.showQuietly": {
+			"workbench.panel.output": false
+		},
+		"workbench.settings.useSplitJSON": false,
+		"scm.alwaysShowActions": true,
+		"scm.alwaysShowRepositories": true,
+		"extensions.webWorker": true,
+		"terminal.explorerKind": "external",
+		"terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+		"terminal.integrated.accessibleViewPreserveCursorPosition": true,
+		"task.allowAutomaticTasks": "on",
+		"task.autoDetect": "on",
+		"task.quickOpen.detail": false,
+		"task.quickOpen.showAll": true,
+		"task.quickOpen.skip": false,
+		"problems.showCurrentInStatus": true,
+		"notebook.codeActionsOnSave": {
+		},
+		"chat.agent.enabled": true,
+		"chat.mcp.assisted.nuget.enabled": true,
+		"chat.math.enabled": true,
+		"chat.mcp.autostart": "newAndOutdated",
+		"chat.todoListTool.enabled": true,
+		"inlineChat.enableV2": true,
+		"telemetry.editStats.details.enabled": true,
+		"github-actions.workflows.pinned.refresh.enabled": true,
+		"git.alwaysSignOff": false,
+		"jupyter.widgetScriptSources": [
+			"unpkg.com",
+			"jsdelivr.com"
+		],
+		"python.createEnvironment.contentButton": "show",
+		"python-envs.pythonProjects": [
+
+		],
+		"redhat.telemetry.enabled": true,
+		"vue.autoInsert.dotValue": true,
+		"vue.format.script.initialIndent": true,
+		"vue.format.style.initialIndent": true
+	},
+}

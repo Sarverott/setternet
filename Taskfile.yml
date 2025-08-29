@@ -6,6 +6,11 @@ vars:
   GREETING: Hello, World!
 
 tasks:
+  forge: 
+    cmds:
+      - git fetch
+      - code ./.craft/forge.code-workspace
+    silent: true
   default:
     cmds:
       - echo "{{.GREETING}}"
