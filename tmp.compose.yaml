@@ -1,0 +1,28 @@
+
+# services:
+#   tunnel:
+#     image: snowdreamtech/dropbear:latest
+#     ports:
+#       - '22:22'
+#     environment:
+#       - TZ=Asia/Shanghai
+#     volumes:
+#       - /path/to/data:/path/to/data
+#     restart: unless-stopped
+#   webhoster:
+#     ports:
+#       - 8080:8080
+#       - 80:80
+#     volumes:
+#       - ./config/traefik.yml:/etc/traefik/traefik.yml
+#       - /var/run/docker.sock:/var/run/docker.sock
+#     image: traefik:v3
+#   dns:
+#     restart: always
+#     image: strm/dnsmasq
+#     volumes:
+#       - ./config/dnsmasq.conf:/etc/dnsmasq.conf
+#     ports:
+#       - "53:53/udp"
+#     cap_add:
+#       - NET_ADMIN

@@ -1,0 +1,20 @@
+[version]
+G = 0
+R = 1
+I = 0
+H = 0
+[authors]
+creators = ["sarverott"]
+maintainers = ["sarverott"]
+contributors = {sarverott = "Sett Sarverott <sarverott@gmail.com> (https://sarverott.com/)"}
+[repositories]
+source = { root = "https://github.com/Sarverott/setternet.git", mirrors = [] }
+container = {registries = [],tagging = []}
+package = {  } 
+[signats]
+description = ""
+metadescriptions = {
+    en = ""
+}
+keywords = []
+metakeywords = []
