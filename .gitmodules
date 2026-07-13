@@ -1,3 +1,4 @@
 [submodule "documentation"]
+	branch = master
 	path = docs
 	url = https://github.com/Sarverott/setternet.wiki.git
